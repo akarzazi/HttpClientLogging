@@ -1,5 +1,5 @@
 # HttpClientLogging
-Provides LoggingHandler as an implemetation of HttpMessageHandler that logs requests and responses into an ILogger instance.
+Provides LoggingHandler implemetation of HttpMessageHandler that logs requests and responses into an ILogger instance.
 
 ![.NET Core](https://github.com/akarzazi/HttpClientLogging/workflows/.NET%20Core/badge.svg)
 
@@ -110,11 +110,11 @@ Output
 ```
 {
   "Request": {
-    "RequestDateUtc": "2020-04-28T14:12:39.3076773Z",
+    "RequestDateUtc": "2020-04-28T16:35:29.9297778Z",
     "Url": "https://api.github.com/zen",
     "Headers": {
       "User-Agent": [
-        "Debug-Sample"
+        "Anonymous-Guy"
       ]
     },
     "Method": "GET",
@@ -123,10 +123,7 @@ Output
   "Response": {
     "StatusCode": 200,
     "ReasonPhrase": "OK",
-    "Body": "Design for failure.",
+    "Body": "Avoid administrative distraction.",
     "Headers": {
-      "Date": [
-        "Tue, 28 Apr 2020 14:12:40 GMT"
-      ],
       ...
 ```

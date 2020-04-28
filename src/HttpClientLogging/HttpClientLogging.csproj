@@ -6,7 +6,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
     <RootNamespace>HttpClientLogging</RootNamespace>
-    <PackageDescription>Provides LoggingHandler as an implemetation of HttpMessageHandler that logs requests and responses into an ILogger instance.</PackageDescription>
+    <PackageDescription>Provides LoggingHandler implemetation of HttpMessageHandler that logs requests and responses into an ILogger instance.</PackageDescription>
     <RepositoryUrl>https://github.com/akarzazi/HttpClientLogging</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/akarzazi/HttpClientLogging</PackageProjectUrl>
@@ -20,7 +20,7 @@
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>HttpClientLogging</AssemblyName>
-    <Description>Provides LoggingHandler as an implemetation of HttpMessageHandler that logs requests and responses into an ILogger instance.</Description>
+    <Description>Provides LoggingHandler implemetation of HttpMessageHandler that logs requests and responses into an ILogger instance.</Description>
   </PropertyGroup>
 
   <ItemGroup>
